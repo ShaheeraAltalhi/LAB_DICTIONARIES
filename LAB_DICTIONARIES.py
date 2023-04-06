@@ -7,7 +7,7 @@ number = input(" Enter the phone Number")
 
 if not number.isdigit():
     print("This is invalid number, use only number.")
-elif:
+elif not number in Phone_book:
     print("sorry, the phone number is not found")
 elif len(number) < or len(number) > 10:
     print("This is invalis number")
@@ -19,4 +19,4 @@ else:
 
 #Q2:
 List = [5, 0, 34, 9, 0, 13, 8]
-NewList = a
+NewList = List.sort()
